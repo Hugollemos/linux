@@ -4,3 +4,12 @@ via terminal/console -----------+
 
 O shell e um interpretador de comandos.
 
+tipos de sheel
+
+- sh - Bourne shell
+- bash - Bourne Again shell
+- rbash - Restricted bash
+- dash - o shell padrão do BSD
+- zsh - (z-shell) zero shell
+- fish - friendly interactive shell
+
