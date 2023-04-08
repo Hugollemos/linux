@@ -1,0 +1,6 @@
+HARDWARE <--> [KERNEL | SHELL] <--> USUARIO
+				I 
+via terminal/console -----------+
+
+O shell e um interpretador de comandos.
+
