@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+O comando test serve para testar condicoes.
+
+EX: 
+```
+test 1 -lt 2 
+echo $?
+0
+```
+add: https://www.certificacaolinux.com.br/comando-linux-test/
+https://www.linuxforce.com.br/comandos-linux/comandos-linux-comando-test/
