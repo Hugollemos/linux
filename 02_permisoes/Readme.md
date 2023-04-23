@@ -1,4 +1,4 @@
-As permisoes podem ser divididas em quatro partes para indicar: tipo, proprietario, grupo e outras permisoes.
+<h1>As permisões podem ser divididas em quatro partes para indicar: tipo, proprietario, grupo e outras permisões.</h1>
 
 | Permissão | Binário | Decimal | Read "R" | Write "W" | Execute "X" 
 |--- |--- |--- |--- |--- |--- 
@@ -13,7 +13,7 @@ As permisoes podem ser divididas em quatro partes para indicar: tipo, proprietar
 
 ---
 
-| permisao | bi |
+| permisão | bi |
 | --- | ---
 --------- |	000
 r--------	| 400
@@ -28,46 +28,57 @@ rwxrwxrwx	| 777
 
 
 ![terminal](../Screenshot.png)
+String de 9 caracteres divididas em três grupos de três:
+1 - proprietário <br>
+2 - grupo  <br>
+3 - outros  <br>
+>ex:
+```
+-rw-r--r--
+Um arquivo(-) no qual o proprietário pode ler e escrever mas não executar(RW-), o grupo pode ler mas não pode escrever ou executar, a mesma coisa para os outros(RW-).
+```
+>ex:
+```
+drwxr-xr-x
+Diretório(d) no qual o proprietário pode ler, escrever e executar, o grupo pode ler e excutar, mas não pode escrever, a mesma coisa para os outros.
+```
 
+```
+>Flag's
+d => diretório;
+b => arquivo de bloco; 
+c => arquivo especial de caractere;
+p => canal;
+s => socker; 
+- => arquivo "normal";
+```
 
-d => diretorio
-b => arquivo de bloco
-c => arquivo especial de caractere
-p => canal
-s => socker
-- => arqivo "normal"
-
-R => siginifica permiso de leitura (read);
-W => significa permisao de gravaçao (write);
-x => significa permissão de execução (execution);
-- => significa permissão desabilitada.
-
---- => nenhuma permissão;
-r-- => permissão de leitura;
-r-x => leitura e execução;
-rw- => leitura e gravação;
+``` 
+R => siginifica permissão de leitura (read); 
+W => significa permissão de gravação (write); 
+x => significa permissão de execução (execution); 
+- => significa permissão desabilitada;
+--- => nenhuma permissão; 
+```
+```
+r-- => permissão de leitura; 
+r-x => leitura e execução; 
+rw- => leitura e gravação; 
 rwx => leitura, gravação e execução.
+```
 
-
-Lista 1
-Símbolo
+>Símbolos
+```
 u => usuário
 g => grupo
-O (letra 'o' maiúscula) => outro
+o=> outro
 a => todos
-
-Lista 2
-Símbolo
-r => leitura
-w => gravação
-x => execução
-
-Para poder combinar os símbolos destas duas listas, usam-se os operadores:
-
+```
+```
 + (sinal de adição) => adicionar permissão
 - (sinal de subtração) => remover permissão
 = (sinal de igualdade) => definir permissão
-
-EX: chmod u+w teste.old
-EX: chmod g+rw teste.old
-Ex: chmod g=rwx teste.old
+```
+EX: chmod u+w teste.old <br>
+EX: chmod g+rw teste.old <br>
+Ex: chmod g=rwx teste.old <Br>
