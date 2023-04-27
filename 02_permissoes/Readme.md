@@ -27,8 +27,8 @@ rwxr-xr-x	| 755
 rwxrwxrwx	| 777
 
 
-![terminal](../Screenshot.png)
-String de 9 caracteres divididas em três grupos de três:
+![terminal](../img/Screenshot.png) <br>
+String de 9 caracteres divididas em três grupos de três: <br>
 1 - proprietário <br>
 2 - grupo  <br>
 3 - outros  <br>
