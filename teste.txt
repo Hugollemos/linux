@@ -1,0 +1,11 @@
+01_directories
+02_permissoes
+03_users_and_groups
+04_variaveis
+05_tests
+06_functions
+07_loops
+README.md
+img
+scripts
+teste.txt

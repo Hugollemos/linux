@@ -1,0 +1,4 @@
+Command 'teste' not found, did you mean:
+  command 'testr' from deb python3-testrepository (0.0.20-6)
+  command 'test' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>

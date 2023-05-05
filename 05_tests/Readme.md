@@ -1,4 +1,49 @@
-como testar arquivos:
+### expressões com strings:
+```=``` é igual? <br>
+```!=``` a primeira string é diferente da segunda ? <br>
+```-z``` a string é vazia ? <br>
+```-n``` a string não é vazia ?
+
+```
+$ test "abcd" = "abcd"; echo $?
+0
+$ test "abcd" != "abcd"; echo $?
+1
+$ test "abcd" = "efgh"; echo $?
+1
+$ test "abcd" != "efgh"; echo $?
+0
+$ test -z "meleu"; echo $?
+1
+$ test -n "meleu"; echo $?
+0
+$ test -n ""; echo $?
+1
+$ test -z ""; echo $?
+0
+```
+---
+| operador | significado |
+| --- | ---
+-eq	| igual (EQual);
+-ne	| diferente (Not-Equal);
+-lt	| menor que, "<" (Less Than);
+-le	| menor ou igual, "<=" (Less than or Equal);
+-gt	| maior que, ">" (Greater Than);
+-ge	| maior ou igual, ">=" (Greater than or Equal).
+
+```
+$ [ 2 -eq 2 ]; echo $?
+0
+$ [ $? -lt 5 ]; echo $?
+0
+$ [ 1 -le 1 ]; echo $?
+0
+$ [ 2 -ne 2 ]; echo $?
+1
+```
+
+### como testar arquivos:
 - testando se o arquivo é executável
 ```
 test -x arquivo; echo $?

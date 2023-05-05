@@ -21,3 +21,6 @@ O meu path eh: /usr/local/bin:/usr/bin:/bin:/usr/X11R6/bin:/usr/openwin/bin
 $ conteudo_dir="Meu diretorio home contem: `ls $HOME`"
 Meu diretorio home contem: GNUstep/ progs/ textos/
 ```
+
+Este código tem valor 0 quando a operação ocorre com sucesso e valor diferente de zero quando a operação NÃO termina com sucesso.
+Após cada comando o valor de retorno é gravado na variável $?, experimente um "echo $?" depois de algum comando e veja!
