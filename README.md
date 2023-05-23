@@ -24,3 +24,7 @@ Meu diretorio home contem: GNUstep/ progs/ textos/
 
 Este código tem valor 0 quando a operação ocorre com sucesso e valor diferente de zero quando a operação NÃO termina com sucesso.
 Após cada comando o valor de retorno é gravado na variável $?, experimente um "echo $?" depois de algum comando e veja!
+
+# bizu
+posso conectar comandos usando a saida de um comando(standar in ) com a entrada de outro comando(standart in)
+ex: ls -l /bin | less com a pipeline da pra fazer isso(|)
