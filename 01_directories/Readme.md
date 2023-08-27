@@ -46,3 +46,21 @@ gerenciadores de janelass são exemplos disso.
 ### /var 
 Contém arquivos de dados variáveis, ou seja, arquivos que
 podem aumentar de tamanho, como arquivos de log, arquivos de bancos de dados e mensagens de e-mail.
+
+### /var/spool  
+Spooling de tarefas (fila de impressão, cache de pacotes, proxy, etc)
+
+### /var/run 
+Contém dados sobre a execução do sistema desde seu primeiro boot (daemons e usuários)
+
+### /var/mail  
+Caixas de e-mail dos usuários do sistema em formato mailbox
+
+### /var/log 
+Arquivos de log, usado para logs em geral
+
+
+
+
+
+
